@@ -1,0 +1,19 @@
+[
+  {
+    "name": "GCC-11-x86_64",
+    "compilers": {
+      "C": "/usr/bin/gcc-11",
+      "CXX": "/usr/bin/g++-11"
+    },
+    "cmakeSettings": {
+      "CMAKE_PREFIX_PATH": "/opt/Qt/5.15.2/gcc_64",
+      "Qt5_DIR": "/opt/Qt/5.15.2/gcc_64/lib/cmake/Qt5",
+      "Qt5Core_DIR": "/opt/Qt/5.15.2/gcc_64/lib/cmake/Qt5Core",
+      "QT_QMAKE_EXECUTABLE": "/opt/Qt/5.15.2/gcc_6/bin/qmake"
+    }    
+  },
+  {
+    "name": "iris-imx6dl-2.0.0",
+    "toolchainFile": "/opt/iris/2.0.0/cortexa9thf-neon-fp16-mtic-linux-gnueabi.cmake"
+  }
+]
